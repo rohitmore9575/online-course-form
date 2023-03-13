@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Form</title>
+     <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>HTML form</h2>
+
+<div class="main">
+    <form class="form">
+
+    <fieldset style="border-radius: 10px; border-color: black;">
+        <legend style="color: yellow"> Free Online Course Form</legend>
+        
+        Name:<input class="text" type="text" placeholder="Enter name" required="" autofocus="" maxlength="20"/><br><br>
+
+        DOB:<input type="datetime-local"><br><br>
+
+        Submission Time:<input type="time"><br><br>
+        
+        gender:
+       Male:<input type="radio" name="gender" value="m">
+       female:<input type="radio" name="gender" value="f"><br><br>
+    
+    
+    course:
+
+    html<input type="checkbox">
+    css<input type="checkbox">
+    javascript<input type="checkbox"><br><br>
+
+    Resume:<input type="file"><br><br>
+
+   Course: <select>
+         <option>Web Devlopment</option>
+        <option>Full stack</option>
+        <option>Data Analyst</option>
+        <option>Machine learning</option>
+        <option>Dev-ops</option>
+        <option>Artificial Intellegence</option>
+    </select><br><br>
+
+    email:<input type="email"><br><br>
+
+    password:<input class="text" type="password"><br><br>
+
+    Mob:<input class="text" type="number" value="phone"><br><br>
+
+    Address:<textarea class="text"></textarea><br><br>
+
+    <div >
+        click:<input type="submit" value="submit" class="button">
+    <input type="reset" value="reset" class="button">
+    </div>
+
+</fieldset>   
+
+</form>
+</div>
+
+</body>
+</html>

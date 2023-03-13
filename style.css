@@ -1,0 +1,36 @@
+.form{
+    background-color: blueviolet;
+    width: 400px;
+   
+    border-radius: 19px;
+   
+
+}
+.button{
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: chartreuse;
+    border-color: black;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.button:hover{
+          /* height: 400px; */
+          width: 110px;
+          opacity: 5;
+          background-color: aqua;
+          /* border-style: dashed; */
+          /* margin-top: 40px;
+           margin-left: 30px; */
+}
+
+.text{
+    border-radius: 15px;
+
+    
+}
+
